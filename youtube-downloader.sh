@@ -25,5 +25,4 @@ yt-dlp \
 	--match-filter "!is_live & !live"\
 	--output "/video/%(uploader)s/%(upload_date)s - %(title)s.%(ext)s" \
 	--merge-output-format "mkv" \
-	--dateafter "$(date --date="20 days ago" +%Y%m%d)" \
 	--batch-file "/config/source.txt"
