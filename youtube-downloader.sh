@@ -11,7 +11,7 @@ yt-dlp \
 	--ignore-errors \
 	--no-continue \
 	--no-overwrites \
-	--download-archive archive.log \
+	--download-archive "config/archive.log" \
 	--embed-thumbnail \
 	--match-filter "!is_live & !live"\
 	--output "/video/%(uploader)s/%(upload_date)s - %(title)s.%(ext)s" \
